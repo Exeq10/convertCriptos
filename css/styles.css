@@ -13,7 +13,7 @@
 }
 
 .container {
-  width: 50%;
+  width: 90%;
   min-height: 50%;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,12 @@
   background-color: rgba(28, 28, 29, 0.644);
   margin: 0 auto;
   border-radius: 1rem;
+}
+
+@media (min-width: 868px) {
+  .container {
+    width: 50%;
+  }
 }
 
 .form-select {
